@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BsqView", "BsqView.vcxproj", "{D6CA71D7-649A-B886-3C54-1577078F2BEC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BsqView", "BsqView.vcxproj", "{D6D17CDF-CBB9-DBF3-2D87-F22B2C3CE03B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D6CA71D7-649A-B886-3C54-1577078F2BEC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{D6CA71D7-649A-B886-3C54-1577078F2BEC}.Debug|Win32.Build.0 = Debug|Win32
-		{D6CA71D7-649A-B886-3C54-1577078F2BEC}.Release|Win32.ActiveCfg = Release|Win32
-		{D6CA71D7-649A-B886-3C54-1577078F2BEC}.Release|Win32.Build.0 = Release|Win32
+		{D6D17CDF-CBB9-DBF3-2D87-F22B2C3CE03B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D6D17CDF-CBB9-DBF3-2D87-F22B2C3CE03B}.Debug|Win32.Build.0 = Debug|Win32
+		{D6D17CDF-CBB9-DBF3-2D87-F22B2C3CE03B}.Release|Win32.ActiveCfg = Release|Win32
+		{D6D17CDF-CBB9-DBF3-2D87-F22B2C3CE03B}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

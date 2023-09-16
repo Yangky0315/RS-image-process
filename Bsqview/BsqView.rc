@@ -335,7 +335,10 @@ BEGIN
     BEGIN
         MENUITEM "关于 BsqView(&A)...",           ID_APP_ABOUT
     END
-    MENUITEM "NDVI",                        0
+    POPUP "NDVI"
+    BEGIN
+        MENUITEM "分类",                          ID_NDVI_32811
+    END
 END
 
 

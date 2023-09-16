@@ -1,26 +1,48 @@
-﻿生成启动时间为 2023/9/16 11:28:25。
-     1>项目“D:\study\遥感分析地学\1-平台介绍\Bsqview原型\BsqView.vcxproj”在节点 2 上(build 个目标)。
+﻿生成启动时间为 2023/9/16 12:17:41。
+     1>项目“D:\study\github-RS\RS-image-process\Bsqview\BsqView.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在创建“.\Debug\BsqView.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\BsqView.pch" /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt BigImageDlg.cpp BsqView.cpp BsqViewDoc.cpp BsqViewView.cpp ChildFrm.cpp ImageInitiate.cpp MainFrm.cpp SelBandsDlg.cpp
+         正在跳过...(未检测到相关更改)
+         SelBandsDlg.cpp
+         MainFrm.cpp
+         ImageInitiate.cpp
+         ChildFrm.cpp
+         BsqViewView.cpp
+         BsqViewDoc.cpp
+         BsqView.cpp
+         BigImageDlg.cpp
        ResourceCompile:
-         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _AFXDLL /l"0x0804" /nologo /fo".\Debug\BsqView.res" BsqView.rc 
        ManifestResourceCompile:
          所有输出均为最新。
        Link:
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\BsqView.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:".\Debug\BsqView.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\study\github-RS\RS-image-process\Bsqview\Debug\BsqView.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\BsqView.lib" /MACHINE:X86 .\Debug\BsqView.res
+         .\Debug\BsqView.exe.embed.manifest.res
+         .\Debug\BigImageDlg.obj
+         .\Debug\BsqView.obj
+         .\Debug\BsqViewDoc.obj
+         .\Debug\BsqViewView.obj
+         .\Debug\ChildFrm.obj
+         .\Debug\ImageInitiate.obj
+         .\Debug\MainFrm.obj
+         .\Debug\SelBandsDlg.obj
+         .\Debug\StdAfx.obj
        Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:".\Debug\BsqView.exe.embed.manifest" /manifest .\Debug\BsqView.exe.intermediate.manifest "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
          所有输出均为最新。
+       LinkEmbedManifest:
          所有输出均为最新。
+         BsqView.vcxproj -> D:\study\github-RS\RS-image-process\Bsqview\.\Debug\BsqView.exe
        BscMake:
-         所有输出均为最新。
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\Debug\BsqView.bsc" .\Debug\BigImageDlg.sbr .\Debug\BsqView.sbr .\Debug\BsqViewDoc.sbr .\Debug\BsqViewView.sbr .\Debug\ChildFrm.sbr .\Debug\ImageInitiate.sbr .\Debug\MainFrm.sbr .\Debug\SelBandsDlg.sbr .\Debug\StdAfx.sbr
        FinalizeBuildStatus:
          正在删除文件“.\Debug\BsqView.unsuccessfulbuild”。
          正在对“.\Debug\BsqView.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\study\遥感分析地学\1-平台介绍\Bsqview原型\BsqView.vcxproj”(build 个目标)的操作。
+     1>已完成生成项目“D:\study\github-RS\RS-image-process\Bsqview\BsqView.vcxproj”(build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.07
+已用时间 00:00:00.95

@@ -1,5 +1,5 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Developer Studio generated include file.
+// Microsoft Visual C++ generated include file.
 // Used by BsqView.rc
 //
 #define IDC_SPECT_VIEWER                3
@@ -386,8 +386,10 @@
 #define ID_NDVI_CAC                     32809
 #define ID_COLOR_ALMOND                 32810
 #define ID_SENSOR_AVHRR                 32810
+#define ID_NDVI                         32810
 #define ID_COLOR_SPRINGGREEN            32811
 #define ID_SENSOR_SPOT                  32811
+#define ID_NDVI_32811                   32811
 #define ID_COLOR_TOMATO                 32812
 #define ID_COLOR_FLAX                   32813
 #define ID_COLOR_FUCHSINE               32814
@@ -414,7 +416,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
 #define _APS_NEXT_RESOURCE_VALUE        175
-#define _APS_NEXT_COMMAND_VALUE         32810
+#define _APS_NEXT_COMMAND_VALUE         32812
 #define _APS_NEXT_CONTROL_VALUE         1091
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
