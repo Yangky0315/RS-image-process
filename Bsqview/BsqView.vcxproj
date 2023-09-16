@@ -95,7 +95,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <MinimalRebuild>true</MinimalRebuild>
-      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
       <BrowseInformation>true</BrowseInformation>
@@ -136,6 +136,7 @@
     <ClCompile Include="ChildFrm.cpp" />
     <ClCompile Include="ImageInitiate.cpp" />
     <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="NDVI.cpp" />
     <ClCompile Include="SelBandsDlg.cpp" />
     <ClCompile Include="StdAfx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -156,6 +157,7 @@
     <ClInclude Include="ImageInitiate.h" />
     <ClInclude Include="MainFrm.h" />
     <ClInclude Include="MDParaDlg.h" />
+    <ClInclude Include="NDVI.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="SelBandsDlg.h" />
     <ClInclude Include="StdAfx.h" />
@@ -174,4 +176,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="BsqView.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>

@@ -4,6 +4,7 @@
 //
 #define IDC_SPECT_VIEWER                3
 #define IDD_ABOUTBOX                    100
+#define IDD_NDVI                        103
 #define IDR_MAINFRAME                   128
 #define IDR_BSQVIETYPE                  129
 #define IDD_DIALOG1                     130
@@ -418,6 +419,6 @@
 #define _APS_NEXT_RESOURCE_VALUE        175
 #define _APS_NEXT_COMMAND_VALUE         32812
 #define _APS_NEXT_CONTROL_VALUE         1091
-#define _APS_NEXT_SYMED_VALUE           101
+#define _APS_NEXT_SYMED_VALUE           104
 #endif
 #endif

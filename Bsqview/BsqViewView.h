@@ -15,6 +15,7 @@
 #include "BigImageDlg.h"
 
 
+
 class CBsqViewView : public CScrollView
 {
 protected: // create from serialization only
@@ -145,6 +146,7 @@ protected:
 	//{{AFX_MSG(CBsqViewView)
 	afx_msg void OnFileOpen();
 	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+	afx_msg void OnNDVI();
 
 	afx_msg void OnUpdateXY(CCmdUI* pCmdUI);
 

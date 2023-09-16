@@ -7,7 +7,7 @@
 #include "BsqViewDoc.h"
 #include "BsqViewView.h"
 #include "math.h"
-#include "BandMath.h"
+#include "NDVI.h"
 #include "ClassSelectDlg.h"
 #include "BigImageDlg.h"
 
@@ -40,6 +40,9 @@ BEGIN_MESSAGE_MAP(CBsqViewView, CScrollView)
 	ON_COMMAND(ID_FILE_PRINT, CScrollView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_DIRECT, CScrollView::OnFilePrint)
 	ON_COMMAND(ID_FILE_PRINT_PREVIEW, CScrollView::OnFilePrintPreview)
+		
+	ON_COMMAND(ID_NDVI_32811, OnNDVI)
+
 END_MESSAGE_MAP()
 
 /////////////////////////////////////////////////////////////////////////////
@@ -168,7 +171,7 @@ void CBsqViewView::OnFileOpen()
 		m_filename=m_opendlg.GetFileName();//得到文件的文件名
 		m_pathname=m_opendlg.GetPathName();//得到文件的路径名
 		
-		header = m_pathname + ".txt";//定义头文件的名字
+		header = m_pathname + ".hdr";//定义头文件的名字
 		CFileFind finder;
         BOOL bfind = finder.FindFile(header);
 		//把该文件打开
@@ -521,3 +524,15 @@ void CBsqViewView::OnMouseMove(UINT nFlags, CPoint point)
 }
 
 
+void CBsqViewView::OnNDVI() 
+{
+	// TODO: Add your command handler code here
+	if(m_fileopen == false)
+	{
+		MessageBox("There is no file open!","Error",MB_ICONERROR);
+		return;
+	}
+	CNDVI fNDVI;
+	fNDVI.NDVICal(m_pathname,Bands,Height,Width);
+	
+}

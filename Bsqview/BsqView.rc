@@ -202,6 +202,15 @@ BEGIN
     GROUPBOX        "",IDC_STATIC,10,203,112,32,BS_FLAT
 END
 
+IDD_NDVI DIALOG 0, 0, 320, 200
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对话框"
+FONT 9, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,209,179,50,14
+    PUSHBUTTON      "取消",IDCANCEL,263,179,50,14
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -263,6 +272,14 @@ BEGIN
         RIGHTMARGIN, 146
         TOPMARGIN, 9
         BOTTOMMARGIN, 232
+    END
+
+    IDD_NDVI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 313
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 193
     END
 END
 #endif    // APSTUDIO_INVOKED
@@ -337,7 +354,7 @@ BEGIN
     END
     POPUP "NDVI"
     BEGIN
-        MENUITEM "分类",                          ID_NDVI_32811
+        MENUITEM "NDVI",                        ID_NDVI_32811
     END
 END
 
